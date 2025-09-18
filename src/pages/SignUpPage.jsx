@@ -557,10 +557,10 @@ export default function SignUpPage() {
   const renderCompanyForm = () => (
     <div className="space-y-8">
       <div className="text-center mb-8">
-        <div className="w-20 h-20 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+        <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
           <span className="text-3xl">🏢</span>
         </div>
-        <h2 className="text-3xl font-bold bg-gradient-to-r from-secondary to-secondary/80 bg-clip-text text-transparent mb-2">
+        <h2 className="text-3xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent mb-2">
           Register Company Account
         </h2>
         <p className="text-muted-foreground text-lg">
@@ -572,8 +572,8 @@ export default function SignUpPage() {
         {/* Account Credentials Section */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center">
-              <span className="text-secondary font-bold text-sm">1</span>
+            <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
+              <span className="text-primary font-bold text-sm">1</span>
             </div>
             <h3 className="text-xl font-semibold text-foreground">Account Credentials</h3>
           </div>
@@ -592,7 +592,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.email 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.email && (
@@ -617,7 +617,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 pr-12 transition-all duration-300 ${
                     errors.password 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 <button
@@ -670,7 +670,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 pr-12 transition-all duration-300 ${
                     errors.confirmPassword 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 <button
@@ -694,8 +694,8 @@ export default function SignUpPage() {
         {/* Company Information Section */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center">
-              <span className="text-secondary font-bold text-sm">2</span>
+            <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
+              <span className="text-primary font-bold text-sm">2</span>
             </div>
             <h3 className="text-xl font-semibold text-foreground">Company Information</h3>
           </div>
@@ -714,7 +714,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.companyName 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.companyName && (
@@ -737,7 +737,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 px-3 transition-all duration-300 bg-background ${
                     errors.industry 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 >
                   <option value="">Select Industry</option>
@@ -764,7 +764,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 px-3 transition-all duration-300 bg-background ${
                     errors.size 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 >
                   <option value="">Select Size</option>
@@ -794,7 +794,7 @@ export default function SignUpPage() {
                 className={`w-full rounded-xl border-2 p-3 transition-all duration-300 resize-none bg-background ${
                   errors.description 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.description && (
@@ -821,7 +821,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                     errors.establishmentYear 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 {errors.establishmentYear && (
@@ -846,7 +846,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                     errors.phone 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 {errors.phone && (
@@ -871,7 +871,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.address 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.address && (
@@ -887,8 +887,8 @@ export default function SignUpPage() {
         {/* Representative Details Section */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center">
-              <span className="text-secondary font-bold text-sm">3</span>
+            <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
+              <span className="text-primary font-bold text-sm">3</span>
             </div>
             <h3 className="text-xl font-semibold text-foreground">Representative Details</h3>
           </div>
@@ -908,7 +908,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                     errors.fullName 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 {errors.fullName && (
@@ -932,7 +932,7 @@ export default function SignUpPage() {
                   className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                     errors.position 
                       ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                      : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                      : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                   }`}
                 />
                 {errors.position && (
@@ -958,7 +958,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.contactPhone 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.contactPhone && (
@@ -974,8 +974,8 @@ export default function SignUpPage() {
         {/* Online Presence Section */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center">
-              <span className="text-secondary font-bold text-sm">4</span>
+            <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
+              <span className="text-primary font-bold text-sm">4</span>
             </div>
             <h3 className="text-xl font-semibold text-foreground">Online Presence (Optional)</h3>
           </div>
@@ -994,7 +994,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.website 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.website && (
@@ -1018,7 +1018,7 @@ export default function SignUpPage() {
                 className={`h-12 rounded-xl border-2 transition-all duration-300 ${
                   errors.linkedin 
                     ? "border-red-300 focus:border-red-500 focus:ring-red-200" 
-                    : "border-border/50 focus:border-secondary/50 focus:ring-secondary/20"
+                    : "border-border/50 focus:border-primary/50 focus:ring-primary/20"
                 }`}
               />
               {errors.linkedin && (
@@ -1034,14 +1034,14 @@ export default function SignUpPage() {
         {/* Logo Upload Section */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center">
-              <span className="text-secondary font-bold text-sm">5</span>
+            <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center">
+              <span className="text-primary font-bold text-sm">5</span>
             </div>
             <h3 className="text-xl font-semibold text-foreground">Company Logo (Optional)</h3>
           </div>
           
           <div className="space-y-4">
-            <div className="border-2 border-dashed border-border/50 rounded-xl p-6 text-center hover:border-secondary/50 transition-colors duration-300">
+            <div className="border-2 border-dashed border-border/50 rounded-xl p-6 text-center hover:border-primary/50 transition-colors duration-300">
               <input
                 type="file"
                 id="logo"
@@ -1093,11 +1093,11 @@ export default function SignUpPage() {
             <div className="space-y-1">
               <Label htmlFor="companyTerms" className="text-sm font-medium leading-relaxed">
                 I agree to the{" "}
-                <Link to="/terms" className="text-secondary hover:underline font-semibold">
+                <Link to="/terms" className="text-primary hover:underline font-semibold">
                   Terms and Conditions
                 </Link>{" "}
                 and{" "}
-                <Link to="/privacy" className="text-secondary hover:underline font-semibold">
+                <Link to="/privacy" className="text-primary hover:underline font-semibold">
                   Privacy Policy
                 </Link>
               </Label>
@@ -1115,7 +1115,7 @@ export default function SignUpPage() {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="w-full h-12 bg-gradient-to-r from-secondary to-secondary/80 hover:from-secondary/90 hover:to-secondary/70 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-semibold text-lg"
+          className="w-full h-12 bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-semibold text-lg"
         >
           {isSubmitting ? (
             <div className="flex items-center space-x-2">
@@ -1163,7 +1163,7 @@ export default function SignUpPage() {
                   onClick={() => setAccountType("company")}
                   className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
                     accountType === "company"
-                      ? "bg-secondary text-secondary-foreground shadow-lg scale-105"
+                      ? "bg-primary text-primary-foreground shadow-lg scale-105"
                       : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
                   }`}
                 >
