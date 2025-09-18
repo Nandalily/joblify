@@ -177,7 +177,7 @@ export default function HomePage() {
             
             <div className="text-center">
               <Button asChild size="lg" className="btn-blue-outline text-lg px-8 py-4">
-                <Link to="/jobs">View All Jobs</Link>
+                <Link to="/jobs">View All Jobs here</Link>
               </Button>
             </div>
           </div>
